@@ -1,5 +1,5 @@
 # SCARA-Drawbot
-A remix of this drawbot: https://www.thingiverse.com/thing:3096135. This project includes full Arduino sketch and some helper Python scripts along with some sample Gcode.
+A remix of this drawbot: https://www.thingiverse.com/thing:3096135. This project includes a fully rewritten Arduino sketch and some helper Python scripts along with some sample Gcode.
 
 <img width="5712" height="4284" alt="IMG_4592" src="https://github.com/user-attachments/assets/011c02cf-fefb-423a-98ac-50e8f99c9096" />
 
