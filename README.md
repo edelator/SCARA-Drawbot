@@ -16,7 +16,10 @@ Unlike the original this remix uses a ESP32-S3-Zero and TMC2209 (UART + STEP/DIR
 <img width="2935" height="2539" alt="IMG_4594" src="https://github.com/user-attachments/assets/4ae784b8-08cb-4b90-b9d1-bbfbf10a10d4" />
 
 # Send Gcode to robot over serial:
-Example:  python3 gcode_sender.py spirograph2.gcode /dev/cu.usbmodem201101
+Example:  
+     ```console
+     python3 gcode_sender.py spirograph2.gcode /dev/cu.usbmodem201101
+	 ```
 
 # Lineart to Gcode via Inkscape
 Create .svg file
@@ -39,7 +42,11 @@ Choose your .svg created in Inkscape and select Generate G-Code
 <img width="1182" height="890" alt="svg2gcode" src="https://github.com/user-attachments/assets/fc0c6758-2027-46f8-b212-5b543cae5434" />
 
 Cleanup Gcode for robot
+	```console
 	python3 inkscape_to_robot.py elephant.gcode --offset-x -57.6 --offset-y -46.6 
+    ```
 
 Send to robot
+    ```console
 	python3 gcode_sender.py elephant_robot.gcode /dev/cu.usbmodem201101
+	```
