@@ -7,8 +7,9 @@ This design is NOT a pure SCARA in the traditional sense.
 It is a base-driven, 2-DOF SCARA-like arm with a mechanically coupled elbow via a 4-bar linkage.
 
 Unlike the original this remix uses a ESP32-S3-Zero and TMC2209 (UART + STEP/DIR) Drivers
+<img width="4032" height="3024" alt="IMG_4576" src="https://github.com/user-attachments/assets/8379606b-892d-4aed-96bc-c36e9116021d" />
 
-[![In Action](https://youtu.be/CUzrO_Chii8/0.jpg)](https://youtu.be/CUzrO_Chii8 "Drawbot")
+[![In Action](https://img.youtube.com/vi/CUzrO_Chii8/0.jpg)](https://youtu.be/CUzrO_Chii8 "Drawbot")
 
 # Example output:
 <img width="4032" height="3024" alt="IMG_4591" src="https://github.com/user-attachments/assets/cb575240-8f04-4c77-8dfc-0a71db16fa6d" />
