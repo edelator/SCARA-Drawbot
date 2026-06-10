@@ -9,6 +9,7 @@ It is a base-driven, 2-DOF SCARA-like arm with a mechanically coupled elbow via 
 Unlike the original this remix uses a ESP32-S3-Zero and TMC2209 (UART + STEP/DIR) Drivers
 <img width="4032" height="3024" alt="IMG_4576" src="https://github.com/user-attachments/assets/8379606b-892d-4aed-96bc-c36e9116021d" />
 
+# In action video
 [![In Action](https://img.youtube.com/vi/CUzrO_Chii8/0.jpg)](https://youtu.be/CUzrO_Chii8 "Drawbot")
 
 # Example output:
@@ -22,7 +23,7 @@ Example:
      python3 gcode_sender.py spirograph2.gcode /dev/cu.usbmodem201101
 	 ```
 
-# Lineart to Gcode via Inkscape
+# Line art to Gcode via Inkscape
 Create .svg file
 1. Open Inkscape
 2. New Document
