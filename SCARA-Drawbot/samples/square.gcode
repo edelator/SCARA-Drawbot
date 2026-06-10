@@ -1,0 +1,10 @@
+; Square 40x40 — -5.0deg rotation (no shear)
+G28
+GOHOME
+G0 X-21.67 Y-18.18
+M3
+G1 X18.18 Y-21.67
+G1 X21.67 Y18.18
+G1 X-18.18 Y21.67
+G1 X-21.67 Y-18.18
+M5
