@@ -18,7 +18,8 @@ Unlike the original this remix uses a ESP32-S3-Zero and TMC2209 (UART + STEP/DIR
 # Send Gcode to robot over serial:
 Example:  python3 gcode_sender.py spirograph2.gcode /dev/cu.usbmodem201101
 
-Lineart to Gcode via Inkscape
+# Lineart to Gcode via Inkscape
+Create .svg file
 1. Open Inkscape
 2. New Document
 3. Set document size to 160 x 160mm
@@ -28,7 +29,7 @@ Lineart to Gcode via Inkscape
 	  Drag converted linear off of bitmap and delete bitmap leaving just line art
 	  Save as .svg
 
-# Convert to SVG to Gcode
+Convert SVG to Gcode
 Open:  https://sameer.github.io/svg2gcode/#close
 	Configure Settings for pen actions and homing
   <img width="634" height="651" alt="Dots per Inch" src="https://github.com/user-attachments/assets/c516572f-0517-4664-a622-a0622392f2df" />
